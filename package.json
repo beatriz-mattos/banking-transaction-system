@@ -1,0 +1,19 @@
+{
+  "name": "banking-transaction-system",
+  "version": "1.0.0",
+  "description": "Sistema de transações bancárias que suporta múltiplas transações concorrentes, garantindo a integridade do saldo da conta em todas as operações.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Beatriz Jungers Mattos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "pg": "^8.11.5"
+  }
+}
